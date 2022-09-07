@@ -1,0 +1,265 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>周报 | kivaboo</title>
+<link rel="shortcut icon" href="https://yb-r.github.io/favicon.ico?v=1662557214595">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://yb-r.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="周报 | kivaboo - Atom Feed" href="https://yb-r.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="2022.8.25-2022.9.2
+做了heat方程的实验
+以下为用deepxde库的出来的结论：
+
+以下是基于pytorch_geometric的实验结果。
+有点看不出来联系。
+2022.8.19-8.25
+之前一直围绕deepxde进..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://yb-r.github.io">
+  <img class="avatar" src="https://yb-r.github.io/images/avatar.png?v=1662557214595" alt="">
+  </a>
+  <h1 class="site-title">
+    kivaboo
+  </h1>
+  <p class="site-description">
+    就这
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              周报
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-09-05
+              </span>
+              <span>
+                7 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>2022.8.25-2022.9.2<br>
+做了heat方程的实验<br>
+以下为用deepxde库的出来的结论：</p>
+<!-- more -->
+<p>以下是基于pytorch_geometric的实验结果。</p>
+<p>有点看不出来联系。</p>
+<p>2022.8.19-8.25<br>
+之前一直围绕deepxde进行pinn的研究，本周主要针对pytorch版本进行了研究。</p>
+<p>2022.8.11-8.19<br>
+本周尝试了用deepxde逼近了一个函数y=xsin(5x),x∈[-1,1]。</p>
+<p>上图为改变训练点次数的训练图，目前呈现出点越多越精准的趋势。目前关于调参知识非常不足。<br>
+下周任务：<br>
+尝试不同方程，研究调参。</p>
+<p>2022.8.4-2022.8.11<br>
+本周主要研究论文。<br>
+Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Difffferential Equations<br>
+Physics Informed Deep Learning (Part Ⅱ): Data-driven Solutions of Nonlinear Partial Difffferential Equations<br>
+读书报告：</p>
+<p>2022.7.29-2022.8.4<br>
+本周主要对理论与算法结合，熟悉了deepxde的使用，主要研究deepxde解PDE的正向与逆向的代码，以及部分数学概念。<br>
+看到一篇比较好的笔记。</p>
+<p>看了篇论文：Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Difffferential Equations<br>
+本论文所有的代码全部是tf1.0版本，研究过程中遇到了较大困难，其次其中的数学概念还需要进一步补充。<br>
+本周总结:<br>
+研究过程中，最主要的问题是数学知识不够，很多公式包括概念理解起来很困难，关于代码没有太多较复杂的地方。对于deepxde的代码，理解不了原理，只知道看着其他代码来做一个模仿。对于pinn算法，神经网络构造部分概念也摸棱两可。其次关于如何优化，如何调参，没有明确的思路。网上关于pinn的具体使用，如何优化等视频较少。</p>
+<p>下周任务：<br>
+将知识做一个汇总，写论文读书报告。</p>
+<p>2022.7.23-2022.7.29<br>
+本周主要看了一篇论文<br>
+写了读书报告：</p>
+<p>下周任务：熟悉算法流程，进行相关的训练。</p>
+<p>2022.7.16-2022.7.22<br>
+本周主要对pinn进行进一步了解，主要了解ped求近似函数，对上周跑的代码进行了深入了解。<br>
+本周总结：<br>
+论文不懂，公式不懂，代码不懂，通过别人的论文笔记与实验了解了部分知识。<br>
+下周任务：<br>
+看相关的视频进行理解。<br>
+2022.7.8-2022.7.15<br>
+1.论文不太能理解，本周主要以别人的学习笔记为主，对pinn进行了了解，跑了简单的例子，用深度学习的方法求解PDE。<br>
+对pinn的理解：<br>
+属于深度学习的一种，把物理方程作为限制加入神经网络中使训练的结果满足物理规律通过把物理方程的迭代前后的差值加到神经网络的损失函数里面去，让物理方程也“参与”到了训练过程。这样，神经网络在训练迭代时候优化的不仅仅的网络自己的损失函数，还有物理方程每次迭代的差，使得最后训练出来的结果就满足物理规律了。<br>
+常微分方程：f’(x)=f(x)  f(0)=1</p>
+<pre><code>      				简单的全连接层	
+</code></pre>
+<p>Epoch=0								Epoch=4000</p>
+<p>Epoch=12000							Epoch=20000</p>
+<p>2.对deepxde的简单使用，以下为个别例子</p>
+<p>泊松方程以狄利克雷边界条件和诺伊曼边界条件</p>
+<pre><code>						使用pinn求解扩散函数
+</code></pre>
+<p>函数：：<br>
+边界：<br>
+本周总结：<br>
+对pinn的理解与deepxde的使用有了进一步认识。但是对具体使用还需要看更多的例子。<br>
+下周任务：<br>
+1.跑一些实际项目<br>
+2.阅读完本周未看完的论文<br>
+2022.7.1-2022.7.8<br>
+1.看了关于pinn的介绍，pinn大概为新的模型，具体算法概念还不太懂。<br>
+2.配置好了deepXDE，准备跑一个类似的代码，有关的例子较少，还未实现。<br>
+本周总结：<br>
+学习进度较为缓慢，许多数学知识需要进一步研究，具体的实现需要找较好的例子去看，看了一篇论文Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations ,深刻了解了到了每个字都看得懂，合起来就不理解的感受，主要在公式方面看不太懂，不太了解，需要进一步深入研究。</p>
+<p>下周任务：<br>
+仔细研究一篇论文，写读书报告。</p>
+<p>2022.6.25-202 2.7.1<br>
+1.研究了paddle库在机器学习上的一些知识，完成了手写数字模型的训练（代码以及数据均为网上找的）</p>
+<p>图1代码</p>
+<p>图2运行结果</p>
+<p>2.继续学习了一些算法概念<br>
+3.研究了python的基本语法<br>
+本周总结：<br>
+机器学习在建模，选用函数，调参方面难度较多，需要较好的数学功底以及对所paddle库的熟练使用，机器学习暂且不再做深入了解。看了一篇有关于神经网络的论文，数学符号都不太懂。在实际写代码时需要专精一门语言，python上手较快，现阶段实用性较好。<br>
+下周计划：<br>
+学习有关python数据结构实现<br>
+继续进行数据分析的了解学习</p>
+<p>2022.6.18-6.24<br>
+一些概念学习，简单的尝试。<br>
+1.了解一些算法概念。	<br>
+2.对python的三个库进行了了解。（opencv库，numpy库,matplotlib库）<br>
+做了简单的尝试：</p>
+<p>尝试提取图片一些特征：</p>
+<p>3.尝试了matlab的一些简单的操作。</p>
+<p>本周总结：<br>
+Python库很多，每个库能做的事很多。需要根据需求进行具体学习。本周了解到机器学习的一些概念，需要一定的数学思维，以及方向。感觉学术的尽头是数学。<br>
+下周任务：<br>
+继续了解一些算法。<br>
+尝试在自己电脑上进行简单的机器学习模型训练，主要尝试理解模型，进行优化，调参。</p>
+<p>2022.6.13-6.17<br>
+对伪分布式系统进行搭建。<br>
+1.完成虚拟机的安装（centos），操作较为繁琐，但不需要技巧。<br>
+2.如何将hadoop和jdk装进虚拟机困扰很久（解决方法：使用finallshell进行操作，可直接加入文件）<br>
+3.配置环境较为简单，保证文件修改的正确性即可保证正确性。<br>
+4.最后准备开放端口，在本机浏览器进行预览，出现了较大问题。<br>
+问题1：本机防火墙要关闭<br>
+问题2：虚拟机要开放端口，具体操作流程在该网站。<br>
+https://blog.csdn.net/Bzbtyhydcxy/article/details/106043446<br>
+问题3：虚拟机ip可能会变，不清楚原因，需要输入 dhclient -v命令</p>
+<p>图1—输入jps后的效果图</p>
+<p>图2-虚拟机ip变化图</p>
+<p>本周总结：<br>
+伪分布式系统搭建基本完毕，没有过多技巧。<br>
+下周任务：<br>
+研究数据挖掘的一些概念，了解matlab的基本操作。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  
+  <a class="rss" href="https://yb-r.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
